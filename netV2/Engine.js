@@ -138,7 +138,7 @@ Engine.prototype.draw = function ()
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     this.ctx.font = '40px serif';
     this.ctx.fillStyle = "rgb(0,0,0)";
-    this.ctx.fillText("使用鼠标拖拽", canvas.width / 2 - 90, 100);
+    this.ctx.fillText("use mouse to drag", canvas.width / 2 - 90, 100);
     for (g in this.groupArr)
     {
         var constraints = this.groupArr[g].constraints;
